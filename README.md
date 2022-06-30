@@ -28,8 +28,7 @@ Comparing Lot 3 against the population mean of 1500, we see the sample mean is 1
 ## Study Design: MechaCar vs Competition
 As this analysis was a good starting point, we advise AutosRU to continue further evaluation of their metrics between thier metrics and those of their competitors. As we have a good understanding of what aspects of the prototype affect mpg. We should continue by seeing where the highway fuel efficeny compares to those of AutosRU's competitors. Especially in today economy and ever changing market towards electric cars, many consumers will be looking towards fuel efficency as one of their top reasons to buy a car. Starting off we would like to establish our Null and Alternative Hypotheses: <br>
 <br>
-* Null Hypothesis: There is no statistical difference between AutosRU and thier competitor's highway fuel efficiency.<br>
-<br>
+* Null Hypothesis: There is no statistical difference between AutosRU and thier competitor's highway fuel efficiency.
 * Alternative Hypothesis: There is a statistical difference between AutosRU and thier competitor's highway fuel efficiency.<br>
 <br>
 To test our hypothesis we will use an ANOVA test as we will be needing to compare multiple mpg means across the board of AutosRU and their many competitors. This test will work better than a t-test because we will be able to evaluate where we are comparively as a whole. To run an ANOVA test we will use mpg as our dependent variable and for our independent variable we will consider and use specific styles of cars. ie: sudan, truck, suv, hatchback, ect...  including AutosRU's prototype. In doing this we would like to have each brand to have multiple cars evaluated for their mean mpg to limit variance and get an appropriate reading.
