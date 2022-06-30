@@ -25,4 +25,11 @@ Comparing Lot 1 against the population mean of 1500, we see the sample mean is 1
 Comparing Lot 2 against the population mean of 1500, we see the sample mean is 1500.02 and the p-value is 0.6072. There is no signifacnt difference as 0.60 is still very high showing little variance. <br>
 ![image](https://user-images.githubusercontent.com/101231388/176720888-819d2bff-1541-456b-863b-e5fcc05aaf28.png)<br>
 Comparing Lot 3 against the population mean of 1500, we see the sample mean is 1496.14 and the p-value is 0.04168. This case is different as the p-value is lower than the significance level of 0.05, so we can reject the null hypothesis that the sample mean and population mean are not significantly different. <br>
-
+## Study Design: MechaCar vs Competition
+As this analysis was a good starting point, we advise AutosRU to continue further evaluation of their metrics between thier metrics and those of their competitors. As we have a good understanding of what aspects of the prototype affect mpg. We should continue by seeing where the highway fuel efficeny compares to those of AutosRU's competitors. Especially in today economy and ever changing market towards electric cars, many consumers will be looking towards fuel efficency as one of their top reasons to buy a car. Starting off we would like to establish our Null and Alternative Hypotheses: <br>
+<br>
+* Null Hypothesis: There is no statistical difference between AutosRU and thier competitor's highway fuel efficiency.<br>
+<br>
+* Alternative Hypothesis: There is a statistical difference between AutosRU and thier competitor's highway fuel efficiency.<br>
+<br>
+To test our hypothesis we will use an ANOVA test as we will be needing to compare multiple mpg means across the board of AutosRU and their many competitors. This test will work better than a t-test because we will be able to evaluate where we are comparively as a whole. To run an ANOVA test we will use mpg as our dependent variable and for our independent variable we will consider and use specific styles of cars. ie: sudan, truck, suv, hatchback, ect...  including AutosRU's prototype. In doing this we would like to have each brand to have multiple cars evaluated for their mean mpg to limit variance and get an appropriate reading.
