@@ -17,7 +17,7 @@ In the overall summary, we see that there is a variance of 62.29 PSI. This is lo
 Considering each lot individually, we see that Lots 1 & 2 rocked it with very low variance. Lot 3 however preformed poorly as there is variance at 170 PSI, well over the specification. This lot will most likely need a recall until AutosRUs' Quality team can backtrace this issue.
 ## T-Tests on Suspension Coils
 Conducting t-tests on the suspension coil data we will determine whether there is statistical differences between the mean and the given population mean of 1500 PSI.<br>
-![image](https://user-images.githubusercontent.com/101231388/176717371-b45a918f-5adb-4874-b43e-327af99963ed.png)
+![image](https://user-images.githubusercontent.com/101231388/176717371-b45a918f-5adb-4874-b43e-327af99963ed.png)<br>
 Comparing all of the lots against the population mean of 1500, we see that the sample mean is 1498.78 and the p-value is 0.06028. The p-value is not low enough to reject the null hypothesis as it is not below the significance level of 0.05.<br>
 ![image](https://user-images.githubusercontent.com/101231388/176719019-9d0a7f26-8cf1-4f5a-aa07-560302ad7d0f.png)<br>
 Comparing Lot 1 against the population mean of 1500, we see the sample mean is 1500 and the p-value is 1. There is no signifacnt difference as it is an exact match.<br>
